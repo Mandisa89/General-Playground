@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T18:03:03.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="cRpizBkVyoI9_NQ2FI1g" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T18:30:47.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="Eyd3NY9IlpwuS5Ecr0Nq" version="13.4.9" type="github">
   <diagram id="mqUUIVUrgcyhS-0pyW_c" name="Page-1">
     <mxGraphModel dx="928" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FPIck0brI8026hTAf2uE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPIck0brI8026hTAf2uE-1" target="FPIck0brI8026hTAf2uE-16">
+        <mxCell id="FPIck0brI8026hTAf2uE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPIck0brI8026hTAf2uE-1" target="FPIck0brI8026hTAf2uE-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FPIck0brI8026hTAf2uE-1" value="function fibonacci(n){" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,6 +43,11 @@
         <mxCell id="FPIck0brI8026hTAf2uE-13" value="only accept input of n &amp;gt; 0?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="10" width="100" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="FPIck0brI8026hTAf2uE-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.028;entryY=0.874;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPIck0brI8026hTAf2uE-16" target="FPIck0brI8026hTAf2uE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FPIck0brI8026hTAf2uE-16" value="Create &lt;br&gt;var a = 0;&lt;br&gt;var b = 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="90" width="120" height="60" as="geometry" />
         </mxCell>
@@ -58,8 +63,8 @@
         <mxCell id="FPIck0brI8026hTAf2uE-22" value="output.push(a);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPIck0brI8026hTAf2uE-27" value="// For n values greater than 1 (so n &amp;gt; 2), push the sum of the two preceeding numbers in the array, into the array.&lt;br&gt;&lt;br&gt;for ( var count = 2; count &amp;lt; n; count++) {&lt;br&gt;var temp = a;&lt;br&gt;a = a&amp;nbsp;&lt;br&gt;output.push(b)&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="130" y="360" width="410" height="100" as="geometry" />
+        <mxCell id="FPIck0brI8026hTAf2uE-27" value="// For n values greater than 1 (so n &amp;gt; 2), push the sum of the two preceeding numbers in the array, into the array.&lt;br&gt;&lt;br&gt;for ( var count = 2; count &amp;lt; n; count++) {&lt;br&gt;&lt;br&gt;var temp = a;&lt;br&gt;a = a + b;&lt;br&gt;b = temp;&lt;br&gt;&lt;br&gt;output.push(b);&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="510" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
